@@ -24,7 +24,7 @@ jobs:
 
       # Baut die App und führt die Tests aus (bei PRs und auf main)
       - name: Maven build & test
-        run: bash ./mvnw -B package
+        run: mvn -B package
 
       - name: Build image
         run: docker build -f src/main/docker/Dockerfile.jvm -t $IMAGE:${GITHUB_SHA::7} -t $IMAGE:latest .
