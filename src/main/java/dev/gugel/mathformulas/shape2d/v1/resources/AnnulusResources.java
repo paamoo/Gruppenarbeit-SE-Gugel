@@ -97,8 +97,8 @@ public class AnnulusResources implements Shape2Dresources<AnnulusInput, Shape2Do
 
                 <description>   <formula symbol> : <unit>   (<abbreviation>)   as <data type>
 
-                outerRadius          a                : metre    (m)                as Double
-                innerRadius          b                : metre    (m)                as Double
+                Radius a          a                : metre    (m)                as Double
+                Radius b          b                : metre    (m)                as Double
 
                 ########################
 
